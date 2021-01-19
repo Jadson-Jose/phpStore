@@ -1,0 +1,17 @@
+{
+    "name": "jadso/php-store",
+    "description": "Loja Online em PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "JadsonJose",
+            "email": "jadsonjosesilva@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "core\\" : "core/"
+        }
+    }
+}
