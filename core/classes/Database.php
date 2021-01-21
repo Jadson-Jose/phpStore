@@ -16,9 +16,9 @@ class Database
         // ligação com o banco de dados
         $this->ligacao = new PDO(
             'mysql:' .
-                'host = ' . MYSQL_SERVER . ';' .
-                'dbname = ' . MYSQL_DATABASE . ';' .
-                'charset = ' . MYSQL_CHARSET,
+            'host = ' . MYSQL_SERVER . ';' .
+            'dbname = ' . MYSQL_DATABASE . ';' .
+            'charset = ' . MYSQL_CHARSET,
             MYSQL_USER,
             MYSQL_PASS,
             array(PDO::ATTR_PERSISTENT => true)
